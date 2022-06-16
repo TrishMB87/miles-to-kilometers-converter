@@ -1,0 +1,52 @@
+body {
+    background-image:url(./img/road.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+    font-weight: bold;
+
+}
+h1 {
+    color:whitesmoke;
+    background-color: rgba(114, 10, 212, 0.699);
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+
+}
+.container {
+    display:flex;
+    justify-content:center;
+    font-family:'Courier New', Courier, monospace; 
+}
+#miles {
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:rgba(4, 29, 77, 0.637);
+    margin-left: 20px;
+    padding: 10px;
+}
+::placeholder {
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 50px;
+}
+p {
+    margin: 30px;
+}
+button {
+    color: rgb(225, 219, 231);
+    background-color: rgba(114, 10, 212, 0.603);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+}
+#result {
+    color: whitesmoke;
+    background-color: rgba(114, 10, 212, 0.603);
+    font-size: 20px;
+    font-weight: bold;
+    padding:15px;
+}
